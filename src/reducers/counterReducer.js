@@ -8,7 +8,7 @@ export default function counterReducer(state = {}, action) {
             return {
                 planetCount: action.payload
             }
-        case 'MINUE_ONE':
+        case 'MINUS_ONE':
             return {
                 planetCount: action.payload
             }
